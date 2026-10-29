@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "PostToolUse",
+      "matcher": {
+        "tool": "run_command",
+        "pattern": "(npm|pnpm|yarn)\\s+(test|dev|build)"
+      },
+      "action": {
+        "type": "verify_ui_performance",
+        "instruction": "Audit frontend changes for infinite useEffect re-render storms and uncleaned timer/rAF leaks."
+      }
+    }
+  ]
+}
