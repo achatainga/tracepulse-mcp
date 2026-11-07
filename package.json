@@ -1,6 +1,6 @@
 {
   "name": "@achatainga/tracepulse-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Headless CDP Frame-Rate & UI Micro-Leak Profiler for Autonomous Coding Agents",
   "type": "module",
   "main": "src/engine.mjs",
