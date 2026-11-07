@@ -1,5 +1,5 @@
 ---
-name: tracepulse-mcp
+name: tracepulse
 description: Headless CDP Frame-Rate & UI Micro-Leak Profiler for Autonomous Coding Agents.
 version: 1.0.0
 tags:
